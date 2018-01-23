@@ -1,4 +1,4 @@
-package examples;
+=package examples;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Example2 {
         Scanner scanner = new Scanner(System.in);
         int value = scanner.nextInt();
 
-        for (int i = value - 1; i > 0; i--) {
+        for (int i = value - 1; i >= 0; i--) {
             System.out.println(fibonachi(i));
         }
     }
